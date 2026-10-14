@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.dcbird20" name="David's Kodi Repository" version="1.0.0" provider-name="David">
+	<extension point="xbmc.addon.repository" name="David's Kodi Repository">
+		<dir>
+			<info compressed="false">https://dcbird20.github.io/skin.estuary.guide/addons.xml</info>
+			<checksum>https://dcbird20.github.io/skin.estuary.guide/addons.xml.md5</checksum>
+			<datadir zip="true">https://dcbird20.github.io/skin.estuary.guide/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repository for the Estuary Guide skin</summary>
+		<description>Hosts the Estuary Guide skin (Estuary with channel icons and a taller EPG grid) so Kodi can install and update it.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
